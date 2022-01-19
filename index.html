@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<div class="bg">
+    <div class="bg-head1"></div>
+    <div class="bg-head2"></div>
+    <div class="header">
+        <h1>WELCOME!</h1>
+    </div>
+    <div class="login">
+        <form>
+            <ul>
+                <li><input type="text" name="username" placeholder="Username" ></li>
+                <li><input type="password" name="password" placeholder="Password"></li>
+                <li><input type="submit" value="kirim" onclick="login()"></li>
+            </ul>
+            <div class="new-pswd">
+                <a href="#">Lupa password?</a>
+                <a href="register.html">Register</a>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    function login() {
+        window.open('menu.html')
+    }
+</script>
+</body>
+</html>
